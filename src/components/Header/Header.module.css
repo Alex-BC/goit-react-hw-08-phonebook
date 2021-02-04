@@ -1,0 +1,28 @@
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.userMenu button {
+  margin-left: 10px;
+}
+
+.link {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .userMenu {
+    justify-content: flex-start;
+  }
+  .welcome {
+    display: none;
+  }
+}
