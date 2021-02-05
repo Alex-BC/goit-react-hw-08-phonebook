@@ -5,8 +5,8 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
-import operations from "redux/auth/authOperations";
-import { isLoading } from "redux/auth/authSelectors";
+import operations from "../../redux/auth/authOperations";
+import { isLoading } from "../../redux/auth/authSelectors";
 import s from "./Login.module.css";
 
 export default function Register() {

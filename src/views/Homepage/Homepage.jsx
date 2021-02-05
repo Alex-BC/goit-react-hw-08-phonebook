@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { isLoggedIn } from "redux/auth/authSelectors";
+
+import { isLoggedIn } from "../../redux/auth/authSelectors";
 import { NavLink } from "react-router-dom";
 
 import Jumbotron from "react-bootstrap/Jumbotron";

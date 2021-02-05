@@ -5,7 +5,9 @@ import { useDispatch } from "react-redux";
 // Components
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { addContact } from "redux/contacts/contactsOperations";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { addContact } from "../../redux/contacts/contactsOperations";
 
 export default function AddContactForm({ onSubmit }) {
   const [name, setName] = useState("");

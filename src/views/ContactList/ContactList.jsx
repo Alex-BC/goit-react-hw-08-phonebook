@@ -5,12 +5,14 @@ import { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 
 // Custom components
-import Contact from "components/Contact";
-import ContactsMenu from "components/ContactsMenu";
 
-import { getFilteredContacts } from "redux/contacts/selectors";
-import { getContacts, deleteContact } from "redux/contacts/contactsOperations";
-import { isLoggedIn } from "redux/auth/authSelectors";
+import Contact from "../../components/Contact/Contact";
+import ContactsMenu from "../../components/ContactsMenu/ContactsMenu";
+
+
+import { getFilteredContacts } from "../../redux/contacts/selectors";
+import { getContacts, deleteContact } from "../../redux/contacts/contactsOperations";
+import { isLoggedIn } from "../../redux/auth/authSelectors";
 
 import s from "./ContactList.module.css";
 

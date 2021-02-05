@@ -6,8 +6,9 @@ import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
-import { isLoggedIn, userEmail } from "redux/auth/authSelectors";
-import operations from "redux/auth/authOperations";
+
+import { isLoggedIn, userEmail } from "../../redux/auth/authSelectors";
+import operations from "../../redux/auth/authOperations";
 
 import s from "./Header.module.css";
 

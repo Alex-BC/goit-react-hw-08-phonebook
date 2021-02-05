@@ -4,7 +4,7 @@ import {
   getContacts,
   addContact,
   deleteContact,
-} from "redux/contacts/contactsOperations";
+} from "./contactsOperations.js";
 
 const initialState = {
   items: [],

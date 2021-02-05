@@ -16,13 +16,4 @@ const Contact = ({ name, number, onDelete }) => {
   );
 };
 
-//  <>
-//       <div className={s.contactList__text}>
-//         <p className={s.contactList__name}>{name}</p>
-//         <p className={s.contactList__number}>Tel: {number}</p>
-//       </div>
-//       <button className={s.contactList__deleteBtn} onClick={onDelete}>
-//         Delete
-//       </button>
-//     </>
 export default Contact;

@@ -5,9 +5,9 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
 // Custom components
-import Filter from "components/Filter";
-import Modal from "components/Modal";
-import AddContactForm from "components/AddContactForm";
+import Filter from "../../components/Filter/Filter";
+import Modal from "../../components/Modal/Modal";
+import AddContactForm from "../../components/AddContactForm/AddContactForm";
 
 // Styles and other staff
 import s from "./ContactsMenu.module.css";
